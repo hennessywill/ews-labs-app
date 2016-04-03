@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">EWS Labs</string>
+    <string name="main_activity_title">Available Computers</string>
+    <string name="configuration_title">Select a Lab</string>
+    <string name="lab_name">Lab Name</string>
+    <string name="in_use">In Use</string>
+    <string name="total_computers">Total Computers</string>
+    <string name="menu_settings">Settings</string>
+    <string name="done">Done</string>
+    
+</resources>

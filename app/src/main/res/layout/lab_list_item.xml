@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="horizontal" >
+
+    <ProgressBar
+        android:id="@+id/lab_item_progressbar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/lab_item_room"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:max="100"
+        android:orientation="horizontal"
+        android:progress="50"/>
+
+    <TextView
+        android:id="@+id/lab_item_room"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lab_item_progressbar"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="7dp"
+        android:text="@string/lab_name"
+        android:textColor="@android:color/black"
+        android:textSize="8pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lab_item_ratio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/lab_item_room"
+        android:layout_alignBottom="@+id/lab_item_room"
+        android:layout_alignRight="@+id/lab_item_progressbar"
+        android:text="@string/in_use"
+        android:textColor="@android:color/black"
+        android:textSize="8pt" />
+
+</RelativeLayout>
